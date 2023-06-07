@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  #fffbf7;
+
+}
+h1 {
+    color: #46484c;
+}
+h2 {
+    color: red;
+}
+b {
+    color: #8b8b8bcc;
+}
+.btn {
+    background-color: #025157;
+    cursor: pointer;
+}
+ 
+a {
+    width: 15%;
+    vertical-align: middle;
+    text-decoration: none;
+}
+nav {
+    width:  75%;
+    display: inline-block;
+    text-align: center;
+}
+li {
+    display: inline;
+    cursor: pointer;
+    margin-right: 15px;
+}
+div {
+    display: inline;
+    width: 9%;
+    
+}
+button {
+    cursor: pointer;
+    background-color: black;
+    color: #fffbf7;
+    border-radius: 3px;
+    padding: 10px;
+}
