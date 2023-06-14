@@ -65,3 +65,24 @@
     background-color: green;
     order: 3;
 }
+
+@media (max-width : 575px) {
+    body {
+        background-color: aqua;
+    }
+    .fixed-header {
+        display: none;
+    }
+    .features {
+        margin-top: 20px;
+        grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+    }
+    .car4:hover {
+        background-color: blueviolet;
+    }
+
+    .features2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
