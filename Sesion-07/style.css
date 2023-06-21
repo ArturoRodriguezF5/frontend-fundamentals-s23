@@ -1,0 +1,25 @@
+.blog {
+  height: 500px;
+  width: 500px;
+  background-color: pink;
+  border: 10px solid green;
+}
+@media (orientation: landscape) {
+  .blog {
+    background-color: yellow;
+  }
+}
+
+div ul {
+  color: yellow;
+  list-style: armenian;
+}
+div p {
+  color: whitesmoke;
+}
+
+.blog2 {
+  height: 400px;
+  width: 400px;
+  background-color: beige;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+@use 'global' as *;
+
+@mixin repetido($tamano, $color) {
+    height: $tamano;
+    width: $tamano;
+    background-color: $color;
+}
+
+.blog {
+    @include repetido($size, pink );
+    @media (orientation: landscape) {
+        background-color: $yellow;
+    }
+
+    @if ($size >= 2) {
+        border: 10px solid green;
+    }
+}
+
+div {
+    ul {
+        color: $yellow;
+        list-style: armenian;
+    }
+    p {
+        color: whitesmoke;
+    }
+}
+.blog2 {
+    @include repetido(400px, beige);
+}
+
