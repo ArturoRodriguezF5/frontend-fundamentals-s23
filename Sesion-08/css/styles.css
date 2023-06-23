@@ -17,4 +17,23 @@
 #carru {
   display: flex;
   gap: 50px;
+}
+
+.card-text:hover {
+  font-size: large;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    color: red;
+  }
+  50% {
+    color: hotpink;
+  }
+  100% {
+    color: maroon;
+  }
 }/*# sourceMappingURL=styles.css.map */
