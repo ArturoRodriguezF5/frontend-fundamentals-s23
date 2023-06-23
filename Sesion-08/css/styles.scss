@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color_tittle: hotpink;
+
+#tittle {
+    text-align: center;
+    h1 {
+        color: $color_tittle;
+        &:hover {
+            color: yellow;
+        }
+    }
+}
+#carru {
+    display: flex;
+    gap: 50px;
+}

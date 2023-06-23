@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tittle {
+  text-align: center;
+}
+#tittle h1 {
+  color: hotpink;
+}
+#tittle h1:hover {
+  color: yellow;
+}
+
+#carru {
+  display: flex;
+  gap: 50px;
+}/*# sourceMappingURL=styles.css.map */
